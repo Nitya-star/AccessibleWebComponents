@@ -1,0 +1,234 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+#parta {
+   font-family: 'Poiret One', 'sans-serif';
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-weight: bolder;
+    margin: 1em 1em 1em 1.5em;
+}
+
+#partb > h2 {
+    font-weight: bold;
+    margin-left: 1.5em;
+    margin-top: 1em;
+}
+
+#partb {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 0.9em;
+    font-weight: 900;
+}
+
+#partd {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 0.9em;
+    font-weight: 900;
+    margin-top: 1.5em;
+}
+
+table {
+    margin-left: 1.5em; 
+}
+
+td {
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+    font-weight: 500;
+}
+
+td:first-child {
+    color: white;
+    background-color: #755C75;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+tr:first-child > td:first-of-type {
+    background-color: white;
+}
+
+tr:first-child > td {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+tr:nth-child(even) {
+    background-color: #AA98AA;
+}
+
+tr:nth-child(odd) {
+    background-color: #D0C3D0;
+}
+
+tr:first-child {
+    background-color: #51344D;
+    color: white;
+}
+
+tr:last-child {
+    background-color: #8c93a8;
+    color: white;
+}
+
+td > .correct::before {
+    color: green;
+    font-family: FontAwesome;
+    content: "\f00c";
+}
+
+td > .incorrect::before {
+    color: firebrick;
+    font-family: FontAwesome;
+    content: "\f00d"
+}
+
+tr:last-child > td:first-of-type {
+    background-color: #8c93a8;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+    margin-left: 1.5em;
+    margin-right: 60em;
+    padding: 0.75em 0.5em 0.5em 0.5em;
+}
+
+li:first-of-type {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #CCFF66;
+    font-size: small;
+}
+
+a:visited {
+    color: #FF6666;
+}
+
+a:hover {
+    color: white;
+}
+
+.icon {
+    padding-left: 0em;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 1.5em;
+    background-color: #2ec4b6;
+    padding-right: 0em;
+    margin-right: 0em;
+    color: white;
+    border-radius: 0.5em;
+  }
+
+li:nth-of-type(5) {
+    padding-left: 12em;
+    border-color: rebeccapurple;
+}
+
+li:last-of-type {
+    padding-right: 1em;
+    border: 0.1em;
+    background: white;
+    border-radius: 1em;
+    align-content: center;
+    padding-left: 1em;
+}
+
+.lastitem {
+    color: rebeccapurple;
+}
+
+.black-color {
+    color: white;
+}
+
+label > a {
+    text-decoration-style: solid;
+    text-decoration-line:underline;
+    color: #4285f4;
+}
+
+label > a:hover {
+    color: #4285F4;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4fr 1fr 1fr;
+    margin: 1em 70em 1em 7.5em;
+    border-right: 1.5em;
+    border-right-style: solid;
+    border-right-color: #4285F4;
+    border-bottom: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    border-left: 0.1em;
+    border-left-style:solid;
+    border-left-color: lightgrey;
+    padding: 2em 1.5em 2em 2.5em;
+    border-radius: 0.15em;
+}
+
+header > h4 {
+    font-variant-caps: all-petite-caps;
+    padding: 0em 0em 0.5em 0em;
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+}
+
+header > h3 {
+    font-variant-caps: all-petite-caps;
+    font-size: x-large;
+    color: #4285f4;
+    padding-bottom: 1em;
+}
+
+h4 > input {
+    background-color: lightgray;
+    border: 0em;
+    height: 2em;
+    width: 22.5em;
+    margin-top: 0.25em;
+    font-weight: 200;
+}
+
+label {
+    grid-row-start: 2;
+    font-size: small;
+    font-weight: 100;
+}
+
+label > a {
+    padding-left: 7em;
+}
+
+footer {
+    grid-row-start: 3;
+    padding-left: 7.5em;
+    background-color: #4285f4;
+    color: white;
+    font-variant-caps: all-petite-caps;
+    font-size: large;
+    font-weight: 100;
+    padding-top: 0.5em;
+    border-radius: 0.15em;
+}
+

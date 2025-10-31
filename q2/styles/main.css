@@ -1,0 +1,170 @@
+@import url(reset.css);
+/******************
+Mint Green : #daffed
+Ice Blue : #9bf3f0
+Tekhelet : #473198
+Tekhelet : #491f80
+Indigo : #4a0d67
+******************/
+
+:root {
+    --light-one: #daffed;
+    --light-two: #9bf3f0;
+    --dark-one: #473198;
+    --dark-two: #491f80;
+    --dark-three: #4a0d67;
+    font-family: system-ui, sans-serif;
+  }
+
+  section > ul {
+    display : flex;
+    margin-left: 1.5em;
+  }
+
+  section > ul >li {
+    padding: 0.5em 3em;
+    text-decoration: underline;
+  }
+  
+  body {
+    min-height: 100vh;
+  
+    display:grid;
+  
+    grid-template-columns: 1fr 15em; 
+    grid-template-rows: 9em 5em 1fr auto; 
+
+    grid-template-areas: 'Header Header'
+                         'Nav Nav'
+                         'Main Sidebar'
+                         'Footer Footer';
+  }
+  
+  nav {
+    background-color: var(--dark-two);
+    grid-area: Nav;
+  }
+  
+  nav ul {
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 60em;
+  }
+  
+  nav a {
+    width: 25em;
+    background-color: var(--light-two);
+    border-style: solid;
+    border-color: var(--light-one);
+    border-width: 0.2em;
+    border-radius: 0.5em;
+    padding: 0.8em 2em 0.8em 2em;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  nav a:visited {
+    color: var(--dark-three);
+  }
+  
+  nav a {
+    color: var(--dark-one);
+  }
+  
+  
+  header {
+    background-color: var(--dark-one);
+    grid-area: Header;
+    display: flex;
+    flex-direction: row;
+    color: var(--light-two);
+  }
+  header h2 {
+    font-size: x-large;
+    padding: 2em 1em 0.3em 14em;
+  }
+  header p {
+    font-size: medium;
+    padding-left: 2.5em;
+  }
+  header img {
+    width: 5em;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  
+  main {
+      background-color: var(--light-one);
+      grid-area: Main;
+  }
+  main h1 {
+    font-size: xx-large;
+    font-weight: 700;
+    color: var(--dark-one);
+    width: 15em;
+    border-bottom: 0.2em;
+    border-style: solid;
+    padding: 0.7em 23em 0.3em 0.3em;
+    margin-left: 0.5em;
+  }
+  main p {
+    padding: 1em 1em 0.5em 1em;
+    color: var(--dark-one);
+    font-size: larger;
+    font-weight: 500;
+    text-indent: 1em;
+  }
+
+  table {
+    color: var(--dark-one);
+    font-size: large;
+    font-weight: 500;
+    margin-left: 1.5em;
+  }
+
+  td {
+    padding-right: 1em;
+  }
+  
+  footer {
+    background-color: var(--dark-two);
+    grid-area: Footer;
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+    color: var(--light-one);
+    font-size: x-large;
+    font-variant-caps: all-petite-caps;
+  }
+  
+  
+  aside {
+    background-color: var(--dark-three);
+    grid-area: Sidebar;
+  
+  }
+  
+  blockquote {
+    background-color: var(--dark-two);
+    color: var(--light-one);
+    margin: 2em 1em 0em 1em;
+  }
+
+  blockquote h2 {
+    font-size: x-large;
+    font-weight: 800;
+    margin-bottom: 1em;
+  }
+  
+  blockquote p {
+    font-size: large;
+    padding: 0em 1em 0em 1em;
+  }
+  
+  blockquote footer::before {
+    font-family: 'icons';
+    content: '\2015';}
+
+  
