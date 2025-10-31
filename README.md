@@ -42,6 +42,7 @@ AccessibleWebComponents showcases front-end development skills through the creat
    * Console outputs from the JavaScript scripts demonstrating logic functionality.
 
 ## Technical Skills Demonstrated
+
 * **Frontend Development:** HTML5, CSS3, JavaScript
 * **Layout Techniques:** Flexbox, Grid, Box Model
 * **Accessibilty & Semantics:** WCAG concepts, valid HTML structure, color contrast
