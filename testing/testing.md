@@ -1,9 +1,5 @@
 # Assignment #2 Testing Document
 
-- Note: you don't need to include any code in this document, or export it to PDF. This should just be your labelled testing screenshots. Make sure to preview this document in GitHub online to ensure all your images load correctly or there will be marks deducted from your testing section.
-- Make sure to put your screenshots into a folder for each question.
-
-
 ## Question-1
 
 ### HTML page view on Chrome
@@ -22,16 +18,16 @@
 ## Question-2
 
 ### HTML page view on Chrome
-![ Chrome webpage](./Ques2-Chrome.png)
+![ Chrome webpage](./Part2Chrome.png)
 
 ### HTML page view on Firefox
-![ Firefox webpage](./Ques2-Firefox.png)
+![ Firefox webpage](./Part2Firefox.png)
 
 ### HTML page view on Microsoft Edge
-![ Microsoft Edge webpage](./Ques2-MicrosoftEdge.png)
+![ Microsoft Edge webpage](./Part2MicrosoftEdge.png)
 
 ### Html validation
-![ HTML Validation](./Ques2-Validation.png)
+![ HTML Validation](./Part2Validation.png)
 
 ### Color contrast test 1
 ![ Color Contrast Test 1](./Test1.png)
@@ -55,10 +51,10 @@
 ## Question-3
 
 ### Console view on Chrome
-![ Chrome Console View](./Ques3-Chrome.png)
+![ Chrome Console View](./Part3Chrome.png)
 
 ### Console view on Firefox
-![ Firefox Console View](./Ques3-Firefox.png)
+![ Firefox Console View](./Part3Firefox.png)
 
 ### Console view on Microsoft Edge
-![ Microsoft Edge Console View](./Ques3-MicrosoftEdge.png)
+![ Microsoft Edge Console View](./Part3MicrosoftEdge.png)
