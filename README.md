@@ -14,11 +14,17 @@ This project emphasizes accessibility, layout techniques, and modern front-end d
 
 This project includes three main screenshots, one for each part of the assignment:
 * **Part 1:** A screenshot showing the final HTML & CSS components (table, navigation bar, and login form).
+
 ![Part 1 HTML & CSS Components Created](./testing/Chrome.png)
+
 * **Part 2:** A screenshot of the completed portfolio/resume page layout.
+
 ![Part 2 Portfolio/Resume Page Layout](./testing/Part2Chrome.png)
+
 * **Part 3:** A screenshot showing the JavaScript exercises and their outputs.
+
 ![Part 3 JavaScript Programming Exercises](./testing/Part3Chrome.png)
+
 All additional screenshots, including cross-browser testing results and color contrast checks, are organized in the [testing.md](testing/testing.md) document for easy review.
 
 ## Purpose
